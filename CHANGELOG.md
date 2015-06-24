@@ -1,4 +1,4 @@
-## 1.7.3 (unreleased)
+## 1.7.3 (unofficial version)
 
 IMPROVEMENTS:
 
@@ -2598,4 +2598,3 @@ compatibility.
 The changelog began with version 0.5.1 so any changes prior to that
 can be seen by checking the tagged releases and reading git commit
 messages.
-
