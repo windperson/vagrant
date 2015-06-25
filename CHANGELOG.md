@@ -83,6 +83,7 @@ BUG FIXES:
   - provisioners/docker: Use https for repo [GH-5749]
   - provisioners/chef: Use `command -v` to check for binary instead of
       `which` since that doesn't exist on some systems. [GH-5170]
+  - provisioners/chef: Booting a already provisioned VM doesn't mount Chef vboxsf folders. [GH-5140, GH-5217, GH-5344]
   - provisioners/chef-zero: support more chef-zero/local mode attributes [GH-5339]
   - provisioners/docker: use docker.com instead of docker.io [GH-5216]
   - pushes/atlas: send additional box metadata [GH-5283]
